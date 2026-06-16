@@ -2,9 +2,9 @@
 
 **A Claude Agent Skill that reads raw NMR data + a chemical structure and returns a fully annotated spectrum, a confidence‑scored assignment table, and a copy‑paste SI string.**
 
-给 Claude 用的 NMR 解谱技能：丢进**原始谱图数据 + 分子结构**，自动产出**标注好的谱图、带置信度的归属表、可直接入稿的 SI 文字**，并把结果存进以化合物命名的文件夹。![image-20260616172622496](C:\Users\OMEN\AppData\Roaming\Typora\typora-user-images\image-20260616172622496.png)
+给 Claude 用的 NMR 解谱技能：丢进**原始谱图数据 + 分子结构**，自动产出**标注好的谱图、带置信度的归属表、可直接入稿的 SI 文字**，并把结果存进以化合物命名的文件夹。![image-20260616172622496](C:\Users\OMEN\Documents\nmr-analysis\references\image-20260616172622496.png)
 
-![image-20260616172502742](C:\Users\OMEN\AppData\Roaming\Typora\typora-user-images\image-20260616172502742.png)
+![image-20260616172502742](C:\Users\OMEN\Documents\nmr-analysis\references\image-20260616172502742.png)
 
 ---
 
