@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.npz
+.DS_Store
+# private raw NMR data / proprietary structures — don't commit
+evals/*.zip

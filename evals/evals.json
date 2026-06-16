@@ -1,0 +1,17 @@
+{
+  "skill_name": "nmr-analysis",
+  "evals": [
+    {
+      "id": 0,
+      "name": "bruker-1h-full",
+      "prompt": "帮我解这个氢谱。10.zip 是 Bruker 原始数据，structure_ZQL-5ER.png 是带编号的化学结构。请给我：(1)一张标注好的解析图——峰的位置、积分、裂分都标上，并把结构嵌进图里、标好每个氢的原子号；(2)一份带置信度的归属表(md)；(3)SI 格式的文字。",
+      "files": ["evals/10.zip", "evals/structure_ZQL-5ER.png"]
+    },
+    {
+      "id": 1,
+      "name": "mnova-relabel",
+      "prompt": "这是 MestReNova 自动跑出来的多重峰分析，结构见 structure_ZQL-5ER.png（5-氟吲哚那个化合物，500 MHz, CDCl3）。帮我核对归属、做成带置信度的归属表和 SI 文字，并指出软件自动归属里哪里标错了。\nδ 8.26 (s, 1H, →atom 19); 7.59 (m, 1H, →atom 9); 7.58 (s, 1H, →atom 10 NH); 7.51 (dt, J=7.8,1.4 Hz, 1H, →atom 17); 7.41 (m, 1H, →atom 16); 7.29 (dd, J=8.7,4.3 Hz, 1H, →atom 5); 7.19 (d, J=2.5 Hz, 1H, →atom 1); 6.94 (m, 2H, →atoms 6,15); 4.42 (t, J=6.5 Hz, 1H, →atom 12'); 4.22 (t, J=8.7 Hz, 1H, →atom 12''); 4.14 (t, J=8.3 Hz, 1H, →atom 11); 1.75 (s, 1H, →atom 13).",
+      "files": ["evals/structure_ZQL-5ER.png"]
+    }
+  ]
+}
