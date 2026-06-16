@@ -1,4 +1,4 @@
-# nmr-analysis
+# NMR-1H-Analysis
 
 **A Claude Agent Skill that reads raw NMR data + a chemical structure and returns a fully annotated spectrum, a confidence‑scored assignment table, and a copy‑paste SI string.**
 
